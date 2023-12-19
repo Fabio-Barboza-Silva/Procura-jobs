@@ -2,9 +2,9 @@ const express = require('express');
 const router  =  express.Router();
 const Job     = require('../models/Job');
 
-router.get('/teste', (req, res) => {
+router.get('/test', (req, res) => {
     res.send('deu certo');
-})
+});
 
 // add job via post
 
@@ -18,7 +18,6 @@ router.post("/add",(req, res) => {
         description,
         salary,
         company,
-        email,
         email,
         new_job
     })
