@@ -3,7 +3,6 @@ const app        = express();
 const db         = require('./db/connection');
 const bodyParser = require('body-parser');
 
-
 const PORT = 3000;
 
 app.listen(PORT,function(){
